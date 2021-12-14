@@ -1,0 +1,1 @@
+folders=*; for folder in $folders; do count=1; for i in ${folder}/*; do mv $i ${folder}/${folder}_${count}.jpg; ((count++)); done; done
